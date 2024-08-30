@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 100vw;
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.array-size-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0f0f0;
+    margin-right: 10px;
+    background-color: #7a7878;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.bars_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    width: 10px;
+    background-color: #677685;
+    margin: 0 2px;
+    border-radius: 2px;
+}
+
+body{
+    background-color: #cecfd1;
+}
+
+
+.buttons_container {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+}
+
+
+.buttons_container > button, .buttons_container > select {
+    width: 200px;
+    height: 40px; 
+    background-color: #677685;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.buttons_container > button:hover {
+    background-color: #576776; 
+    transform: scale(1.02);
+}
+.buttons_container > select:hover {
+    background-color: #576776;
+    color: white; 
+    border-color: #576776;
+    transform: scale(1.02);
+}
+
+.buttons_container > select option {
+    background-color: #c0bdbd;
+    color: #333; 
+}
+
+
+.footer {
+    background-color: #52616f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #444;
+  }
+  .footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+  }
