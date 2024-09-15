@@ -37,10 +37,10 @@ body{
 }
 
 .bar{
-    width: 10px;
-    background-color: transparent;
+    width: 4px;
+    background-color: #807f84;
     margin: 0 2px;
-    border: 2px solid #807f84;
+    border: 1px solid #807f84;
 }
 
 /* body{
